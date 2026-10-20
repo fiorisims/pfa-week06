@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Maya bridge staging files
+_maya_in.py
+_maya_out.txt
+_maya_run*.py
+
+# Photoshop bridge staging files
+_ps_in.jsx
+_ps_out.txt
+_ps_run.jsx
+
+# palette_sheet scratch strips / thumbnails
+_palette_strips/
+
+# misc scratch
+_oc_probe.txt
+_t.png
+_test_tall.png
+.mayaSwatches/
