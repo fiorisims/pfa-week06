@@ -29,6 +29,7 @@ The tool cannot import the palette swatches into Photoshop automatically. It tol
 
 PEER RUN: 
 
-Irene: The tool works normally on other devices. The only function that is not working properly is the export to Photoshop function, which exports the image into photoshop. With the required bridge, this can be fixed. 
--Pygame crashed when first launched. Fixed by agent
--The hexcode number placement occasionally overlaps with the color swatches when initially generated
+Irene: 
+1. The first issue I hit was that pygame crashed immediately the moment I clicked any button in the window, so I had opencode bypass that problem before I could use the tool at all.
+2. After that workaround, every feature and button worked and ran smoothly — loading images, sampling and building the palette, and saving the sheet — with the only remaining exception being the Photoshop export button.
+3. A nice touch was that each swatch displays its hex code, but the hex codes sometimes clip into the color palette area instead of staying fully inside their swatch.
