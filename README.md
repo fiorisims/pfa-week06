@@ -29,3 +29,6 @@ The tool cannot import the palette swatches into Photoshop automatically. It tol
 
 PEER RUN: 
 
+Irene: The tool works normally on other devices. The only function that is not working properly is the export to Photoshop function, which exports the image into photoshop. With the required bridge, this can be fixed. 
+-Pygame crashed when first launched. Fixed by agent
+-The hexcode number placement occasionally overlaps with the color swatches when initially generated
