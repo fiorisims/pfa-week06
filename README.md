@@ -12,8 +12,8 @@ WHAT THE TOOL DOES: Opens an interface that does the following:
 -Turns color palette swatches into a downloadable file users can import to Photoshop (the tool cannot do that itself)
 
 HOW TO INSTALL AND RUN: 
-1. Requirements — Python 3.10+, pygame, pywin32, Photoshop 
-2. Install — python -m pip install pygame pywin32.
+1. Requirements — Python 3.10+, pygame, pywin32, Photoshop
+2. Install — python -m pip install pygame pywin32., and photoshop bridge tool in this repo
 3. Run — python palette_gui.py.
 4. Using the window — Images panel, collapsible Options (with More options for shape/gap/hex labels/background), interactive preview (drag items, wheel zoom, pan, Reset layout), and the four action buttons.
 5. The one manual step — since Photoshop's Swatches panel isn't scriptable, load the auto-written color_script.aco via the panel's ☰ → Load Swatches.
